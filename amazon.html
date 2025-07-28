@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/amazon-header.css">
+    <link rel="stylesheet" href="styles/amazon.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="amazon.html" class="amazon-left-section">
+            <div class="logo-border">
+                <img src="images/amazon-logo-white.png" class="amazon-pc-logo" alt="">
+                            
+                <img class="amazon-mobile-logo"
+                src="images/amazon-mobile-logo-white.png">
+            </div>
+            
+        </a>
+        <div class="amazon-middle-section">
+            <input type="text" placeholder="Search">
+            <div class="search-icon">
+                <img src="images/icons/search-icon.png" alt="">
+            </div>  
+        </div>
+        <div class="amazon-right-section">
+            <a href="orders.html" class="return-orders-section">Returns<br><span>& Orders</span></a>
+            <a href="checkout.html" class="cart-icon">
+                <img src="images/icons/cart-icon.png" alt="">
+                
+                <span class="item-count js-count"></span>
+                <span>Cart</span>
+                
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="products-grid js-products-grid">
+        </section>
+    </main>
+
+    <script type="module" src="script/script.js"></script> <!-- this is called the entry point -->
+</body>
+</html>
+
